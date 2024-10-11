@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+  }
+  
+  .navbar {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .btn-resume {
+    background-color: #f39c12;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .banner {
+    background: url('assets/hero-bg.png') no-repeat center center/cover;
+    height: 100vh; /* Full height of the screen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .banner-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent overlay for better text visibility */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-content {
+    text-align: center;
+    color: white; /* Text color to stand out against background */
+  }
+  
+  .banner-image {
+    width: 150px; /* Adjust this size as needed */
+    margin-bottom: 20px;
+  }
+  
+  .banner h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .banner p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn-contact {
+    background-color: #f39c12;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-contact:hover {
+    background-color: #e67e22;
+  }
+  
+  
+  .why-web-dev {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .why-web-dev h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .web-dev-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .web-dev-section:nth-child(even) .web-dev-text {
+    order: 2; /* This ensures the text appears on the right for even sections */
+  }
+  
+  .web-dev-section:nth-child(even) .web-dev-image {
+    order: 1; /* This ensures the image appears on the left for even sections */
+  }
+  
+  .web-dev-text {
+    flex: 1;
+    text-align: left;
+    padding-right: 1.5rem;
+  }
+  
+  .web-dev-text h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .web-dev-text p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #666;
+  }
+  
+  .learn-more-btn {
+    background-color: #f39c12;
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #e67e22;
+  }
+  
+  .web-dev-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .web-dev-image img {
+    max-width: 250px;
+    height: auto;
+  }
+  
+  .inspiration {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .current-target {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .target-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .target-card {
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 10px;
+  }
+  
+  .need-support {
+    background: url('assets/handshake.jpg') no-repeat center center/cover;
+    padding: 4rem;
+    color: white;
+    text-align: center;
+  }
+  
+  .input-feedback {
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .btn-submit {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    background-color: #f39c12;
+    color: white;
+    border-radius: 5px;
+  }
+  
+/* Footer Styling */
+#footer {
+    background-color: #333;
+    padding: 1.5rem 0;
+    color: white;
+    position: relative;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .footer-content p {
+    margin: 0;
+    font-size: 1rem;
+    text-align: left;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .social-icons a {
+    margin-left: 10px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icons img:hover {
+    transform: scale(1.1);
+  }
+  
+  
